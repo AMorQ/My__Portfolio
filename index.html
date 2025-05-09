@@ -3,66 +3,152 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    
   </head>
   <body>
-    <!-- <div class="gallery">
-      <img class="destacada" src="./images/Image (1).png" alt="imagen" />
-      <img src="./images/Image (1).png" alt="imagen" />
-      <img src="./images/Image (1).png" alt="imagen" />
-      <img class="last" src="./images/Image (1).png" alt="imagen" />
-      <img src="./images/Image (1).png" alt="imagen" />
-      <img src="./images/Image (1).png" alt="imagen" />
-    </div> -->
-    <!-- <div class="grid-basico">
-      <div class="item">UNO</div>
-      <div class="item">DOS</div>
-      <div class="item">TRES</div>
-      <div class="item">CUATRO</div>
-    </div> -->
-    <!-- <div class="layout">
-      <aside class="sidebar">Barra lateral</aside>
-      <main class="contenido">contenido principal</main>
-    </div> -->
-    <section class="galeria">
-      <div class="imagen-principal">
-        <img src="./images/mainimage.png" alt="comida" />
+    <header class="topbar">
+      <div class="brand-logo">
+        <img src="./images/LightBulb.png" alt="" />
       </div>
-
-      <div class="contenido">
-        <div class="grid uno">
-          <h4>TITULO</h4>
-          <ul class="lista-uno">
-            <li class="item">item</li>
-            <li class="item">item</li>
-            <li class="item">item</li>
-            <li class="item">item</li>
-          </ul>
-        </div>
-
-        <div class="grid dos">
-          <img src="./images/Image (1).png" alt="manos" />
-          <img src="./images/Image (1).png" alt="manos" />
-          <img src="./images/Image (1).png" alt="manos" />
-          <img src="./images/Image (1).png" alt="manos" />
-        </div>
-
-        <div class="grid tres">
-          <img src="./images/map.png" alt="mapa" />
-        </div>
-
-        <div class="grid cuatro">
-          <h4>TITULO</h4>
-          <ul class="lista-uno">
-            <li class="item">item</li>
-            <li class="item">item</li>
-            <li class="item">item</li>
-            <li class="item">item</li>
-          </ul>
-        </div>
+      <div class="menu"> <!-- whats menu-->
+        <nav class="topnav">
+          <a href="#hero-p">About me</a>
+          <a href="#">GitHub</a>
+          <a href="#">Kaggle</a>
+        </nav>
       </div>
-    </section>
+    </header>
+    <main class="general-container">
+      <section class="hero">
+        <div class="hero-info">
+          <h1 class="hero-title">My Data Insights</h1>
+          <p class="hero-p">
+            This is my portfolio where you can explore my latest endeavours
+          </p>
+        </div>
+      </section>
+      <!-- <section class="card-container">
+        <div class="card">
+          <img src="images/Image (1).png" alt="image" />
+          <div class="texto">
+            <p>
+              As you step through its doors, you're not merely entering an
+              eatery; you're immersing yourself in an experience that goes
+              beyond the boundaries of a traditional dining encounter.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/Image (2).png" alt="image" />
+          <div class="texto">
+            <p>
+              The heart of Qitchen's allure lies in its meticulous attention to
+              every detail, from the selection of ingredients to the
+              presentation of each dish.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./images/Image (3).png" alt="image" />
+          <div class="texto">
+            <p>
+              The ambiance itself speaks of a story where modern elegance meets
+              warmth, inviting patrons to relish not only the food but also the
+              atmosphere that envelopes them.
+            </p>
+          </div>
+        </div>
+      </section> -->
+      <section class="section-news">
+        <h1 class="projects">My current projects</h1>
+        <div class="container-news">
+          <div class="news">
+            <!-- <div class="img-container">
+              <img src="./images/news1.png" alt="sdasdas" />
+            </div> -->
+            <div class="news-text">
+              <span class="news-date">November 2024</span>
+              <h4 class="news-subtitle">
+                Data Analysis over an educational event
+              </h4>
+              <p class="news-paragraph">
+                Languages and API: Python, Excel and BI tools: PowerBI, Tableau
+              </p>
+            </div>
+          </div>
+          <!-- <div class="news">
+            <div class="img-container">
+              <img src="./images/news2.png" alt="sdasdas" />
+            </div>
+            <div class="news-text">
+              <span class="news-date">24th aug 2023</span>
+              <h4 class="news-subtitle">
+                unveiling the mastery behind our culinary craftmanship
+              </h4>
+              <p class="news-paragraph">
+                Explore the meticulous artistry and dedication that create
+                Qitchen's renowed sushi perfection.
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="img-container">
+              <img src="./images/news3.png" alt="sdasdas" />
+            </div>
+            <div class="news-text">
+              <span class="news-date">24th aug 2023</span>
+              <h4 class="news-subtitle">
+                journey through freshness exquisite sushi selection
+              </h4>
+              <p class="news-paragraph">
+                Embark on a seafood adventure, guided by Qitchen's fresh and
+                exquisite creations from the sea.
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="img-container">
+              <img src="./images/news4.png" alt="sdasdas" />
+            </div>
+            <div class="news-text">
+              <span class="news-date">24th aug 2023</span>
+              <h4 class="news-subtitle">
+                palate with qitchen's unsurpassed sushi delicacies
+              </h4>
+              <p class="news-paragraph">
+                Discover the heights of gastronomic delight as Qitchen's sushi
+                transport you to a new culinary realm.
+              </p>
+            </div>
+          </div>
+          <div class="news">
+            <div class="img-container">
+              <img src="./images/news5.png" alt="sdasdas" />
+            </div>
+            <div class="news-text">
+              <span class="news-date">24th aug 2023</span>
+              <h4 class="news-subtitle">the qitchen experience beyond sushi</h4>
+              <p class="news-paragraph">
+                Immerse in Qitchen passion for culinary excellence, where sushi
+                is more than a dish-it's an experience.
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </main>
+    <footer class="f-container"></footer>
   </body>
 </html>
